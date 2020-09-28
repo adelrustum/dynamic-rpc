@@ -92,7 +92,7 @@ task deployNodes(type: net.corda.plugins.Cordform, dependsOn: ['jar']) {
             adminAddress("localhost:10006")
         }
         extraConfig = [
-            // Set random port for H2 database.
+            // Set port for H2 database.
             h2Settings: [
                     address : 'localhost:12345'
             ],
@@ -103,6 +103,7 @@ task deployNodes(type: net.corda.plugins.Cordform, dependsOn: ['jar']) {
                             password : "db_password"
                     ]
             ],
+            // Set RPC users source to database.
             security : [
                     "authService" : [
                             dataSource : [
