@@ -1,0 +1,1 @@
+This repository is a sample project that shows you how to set RPC users dynamically; the detailed explanation can be found in [this article]().
