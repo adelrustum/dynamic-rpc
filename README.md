@@ -1,1 +1,1 @@
-This repository is a sample project that shows you how to set RPC users dynamically; the detailed explanation can be found in [this article]().
+This repository is a sample project that shows you how to set RPC users dynamically; the detailed explanation can be found in [this article](https://blog.b9lab.com/enabling-dynamic-rpc-user-access-management-for-corda-nodes-19bce3fb58cc).
